@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin: 10px 40px;
+}
+.buttonfree{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+    padding: 7px;
+    border-color: hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+    font-family: 'Open Sans', sans-serif;
+    width: 10%;
+    box-shadow: -.3px -.3px 5px hsl(207, 16%, 85%);
+}
+.buttonfree:hover{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+    padding: 7px;
+    border-color: hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+    background-color: hsl(321, 85%, 92%);
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: -.3px -.3px 5px hsl(207, 16%, 85%);
+    width: 10%;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 33pt;
+}
+.ContainerFirst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: hsl(192, 100%, 9%);
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.textContainerFirst{
+    margin-top: -5px;
+    margin-bottom: 55px;
+    margin-left: 390px;
+    margin-right: 390px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(192, 100%, 23%)
+}
+.buttonPink{
+    width: 275px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    border-radius: 45px;
+    padding: 20px;
+    background-color: hsl(322, 100%, 66%) ;
+    margin-top: 0px;
+    margin-bottom: 55px;
+    box-shadow: 3px 5px 5px hsl(207, 16%, 85%);
+}
+.mockupsImage{
+    margin-top: 50px;
+    width: 70%;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 300px ;
+    margin-bottom: 0px;
+}
+.communitiesimage{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+.messageimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 190px;
+}
+.interactionData{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 230px;
+    margin-bottom: 0px;
+}
+.messagesSent{
+    margin-right: 100px;
+    font-size: 50pt;
+    font-family:'Open Sans', sans-serif;
+    color: hsl(192, 100%, 9%);
+}
+.communitiesFormed{
+    font-size: 50pt;
+    font-family:'Open Sans', sans-serif;
+    color: hsl(192, 100%, 9%);
+}
+.imagenesydatos{
+    margin-top: 110px;
+}
+.dataText{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 287px;
+    margin-right: 360px;
+    font-family:'Open Sans', sans-serif;
+    color: hsl(204, 5%, 59%);
+}
+.SecondPinkButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.GetStartedPink{
+    width: 275px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    border-radius: 45px;
+    padding: 20px;
+    background-color: hsl(322, 100%, 66%) ;
+    margin-top: 15px;
+    box-shadow: 3px 5px 5px hsl(207, 16%, 85%);
+}
+.TopWave1{
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+.growTogether{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 145px;
+    padding-right: 150px;
+    background-color: hsl(207, 100%, 98%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    color: hsl(192, 100%, 9%);
+}
+.GrowText{
+    padding-top: 55px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 50px;
+    color: hsl(192, 100%, 9%);
+}
+.GrowContentText{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+.flowingConversations{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 125px;
+    padding-right: 0px;
+    margin-top: 160px;
+}
+.flowingText{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+    font-size: 18px;
+}
+.flowingImage{
+    padding-right: 0px;
+}
+.flowingTitle{
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    padding-right: 0px;
+    margin-right: 10px;
+    padding-top: 35px;
+    padding-left: 135px;
+}
+.TopWave2{
+    margin-top: 150px;
+}
+.YourUsers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(207, 100%, 98%);
+    padding-right: 130px;
+    padding-left: 110px;
+}
+.YourUsersTitle{
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    padding-top: 50px;
+}
+.YourUsersText{
+    font-size: 18px;
+}
+.YourUsersImage{
+    padding-left: 50px;
+}
+.readyText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 135px;
+    margin-bottom: 0px;
+    color: hsl(192, 100%, 9%);
+}
+.FinalSection{
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+}
+.whiteLogo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(192, 100%, 9%);
+    padding-bottom: 0px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-right: 20px;
+
+}
+.NewsletterTitle{
+    padding-left: 500px;
+    padding-top: 53px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;;
+}
+.NewsletterText{
+    font-size: 15px;
+    padding-right: 120px;
+    font-family: 'Open Sans', sans-serif;;
+}
+.logowhite{
+    filter: invert(100%);
+    padding-top: 100px;
+}
+.poto{
+    margin-bottom: -10px;
+}
+.poto1{
+    margin-bottom: -10px;
+}
+.potofinal{
+    margin-bottom: -10px;
+}
+
+.footer2{
+    background-color: hsl(192, 100%, 9%);
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.Lorem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.espacioblanco{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 280px;
+    padding-top: 35px;
+    padding-right: 71px;
+}
+.espacioblancoContent{
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: white;
+    color: white;
+}
+.suscribirse{
+    padding-left: 40px;
+}
+.suscribirseContent{
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: hsl(322, 100%, 66%);
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-family: 'Open Sans', sans-serif;;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Lorem{
+    color: white;
+}
+.LoremContent{
+    display: flex;
+    padding-right: 20px;
+    padding-left: 100px;
+}
+.loremcontent2{
+    padding-right: 100px;
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 15px;
+}
+.footer3{
+    background-color: hsl(192, 100%, 9%);
+    padding-bottom: 0px;
+}
+.footer3content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.phonenumber{
+    color: white;
+    padding-right: 1030px;
+    font-family: 'Open Sans', sans-serif;;
+}
+.phoneimage{
+    padding-left: 100px;
+}
+.footer4{
+    background-color: hsl(192, 100%, 9%);
+    padding-bottom: 50px;
+    padding-top: 20px;
+    margin-bottom: -10px;
+}
+.footer4content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.emailtext{
+    color: white;
+    padding-right: 1045px;
+    font-family: 'Open Sans', sans-serif;;
+}
+.emailimage{
+    padding-left: 100px;
+}
+.footer5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(192, 100%, 9%);
+}
+.footer5content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    filter: invert(100%);
+}
+.footerjustify{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fbimage{
+    padding-right: 30px;
+}
+.igimage{
+    padding-right: 34px;
+}
+.footerjustify{
+    padding-top: 0px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(192, 100%, 9%);
+    margin-top: -10px;
+}
